@@ -1,0 +1,45 @@
+.contact {
+    
+    width: 100%;
+    background-color:#feede9;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.info-items {
+    list-style: none;
+    width: max-content;
+}
+
+.contact-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 25px;
+}
+.item {
+    font-weight:normal;
+    font-size: 25px;
+    
+
+   
+}
+
+@media (min-width:950px) {
+    .contact-title {
+        font-size: 50px;
+        margin: 35 0;
+    }
+
+    .item {
+        font-size: 20;
+        margin-top: 10px;
+        line-height: 1.3;
+    }
+
+}
+
